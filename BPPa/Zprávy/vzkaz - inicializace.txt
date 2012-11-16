@@ -1,0 +1,23 @@
+zdarec
+
+Vím, že jsi ríkal , že bych mel pro napsání té inicializacní sekvence použít
+ten kód co už máme hotový, ale až dneska me došlo , že to vlastne nejde.
+
+
+Tu sekvenci vyvolávám v té metode form_load, když vlastne ten formulár
+ješte neexistuje -> to znamená, že se nemužu odvolávat na žádnou metodu
+kde ke srovnávání používáme parametry z tech labelu a tak (ješte totiž
+neexistují .. proto ten program zamrzl když jsem mu dal nejakou takovou
+podmínku)
+
+To co jsem ted napsal bude doufám fachcit. Musíme to pak vyzkoušet.
+
+
+zatim se mej a pekný víkend
+
+Michal 
+
+
+P.S: máš na skypu žádost od kurecz91 ,  to jsme já
+
+ 

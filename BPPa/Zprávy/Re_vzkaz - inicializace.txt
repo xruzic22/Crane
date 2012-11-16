@@ -1,0 +1,45 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Èau Michale, 
+
+dobøe, nechám to na tobì, jestli tì napadlo øešení, které by mohlo fungovat, tak to zkus naprogramovat a
+jak pùjdem do labin, tak to ozkoušíme.
+
+Já teï nad vizualizací nìjak pøemýšlet nebudu, paè na to potøebuju být pøímo u toho jeøábu, abych si to
+mohl otestovat. Jak jsem ladil tu vizualizaci magnetu, tak se mi to sice podaøilo rozhýbat do obou stran, 
+ale ještì budu zkoušet implementovat nìjakou konstantu, která bude zajišovat synchronizaci i s ostatními
+senzory a tu mùžu implementovat až u jeøábu, jinak nevím co to bude dìlat.
+
+Jinak už zkouším pøemýšlet nad algoritmem pro ty Hanojské vìže, tak tøeba se nám v pátek povede
+implementovat i to. Jinak mimo toho pátku bych to vidìl, že se tam mùžem stavit buï ve støedu nebo
+zase ve ètvrtek.
+
+Tak dej kdyžtak vìdìt, kdy máš èas a mùžem nad to zase sednout.
+
+Tak se zatím mìj a taky pìkný víkend
+
+Zatím èau
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+zdarec
+
+Vím, že jsi ríkal , že bych mel pro napsání té inicializacní sekvence použít
+ten kód co už máme hotový, ale až dneska me došlo , že to vlastne nejde.
+
+
+Tu sekvenci vyvolávám v té metode form_load, když vlastne ten formulár
+ješte neexistuje -> to znamená, že se nemužu odvolávat na žádnou metodu
+kde ke srovnávání používáme parametry z tech labelu a tak (ješte totiž
+neexistují .. proto ten program zamrzl když jsem mu dal nejakou takovou
+podmínku)
+
+To co jsem ted napsal bude doufám fachcit. Musíme to pak vyzkoušet.
+
+
+zatim se mej a pekný víkend
+
+Michal 
+
+
+P.S: máš na skypu žádost od kurecz91 ,  to jsme já
+
+ 

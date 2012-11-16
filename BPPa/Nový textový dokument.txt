@@ -1,0 +1,59 @@
+void hanoi_move(int count, int start, int end, int midstep) 
+{
+
+  if (n==1)
+  {
+
+    //cout << odkud << " -> " << kam << endl;
+
+	transfer_crane(start, end);
+  } else
+  {
+
+    hanoi_move(count-1, start, midstep, end);
+
+    hanoi_move(1, start, end, midstep);
+
+    hanoi_move(count-1, midstep, end, start);
+    
+}
+
+}
+
+int state_transfer;
+
+void transfer_crane(int start, int end)
+{
+	switch(state_transfer)
+	{
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			if (K4L.backcolor!=system.drawing.color.green)
+			{
+				stav=(int)moving.right;
+			}
+			else
+			{
+				if(spodni_pozice==false)	// pokud spina spinac pri sjizdeni // pokud ne, sepne se magnet a zapne vyjizdeni nahoru
+				{
+					stav=(int)moving.down;
+				}
+				else
+				{
+					sepni_mag();
+					stav=(int)moving.up;
+				}
+			}
+			break;
+
+		default:
+			default_pozition();
+			break;
+	}
+
+
+
+}
